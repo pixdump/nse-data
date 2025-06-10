@@ -2,7 +2,7 @@ name: Fetch NEPSE Data Daily
 
 on:
   schedule:
-    - cron: "30 9 * * 0-5" # At 9:30 AM UTC, Sunday to Friday
+    - cron: "30 9 * * 0-4" # At 9:30 AM UTC, Sunday to Friday
 
   workflow_dispatch:
 
